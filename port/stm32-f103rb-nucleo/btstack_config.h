@@ -9,6 +9,8 @@
 #define HAVE_INIT_SCRIPT
 #define HAVE_EMBEDDED_TICK
 
+
+
 // BTstack features that can be enabled
 #define ENABLE_BLE
 #define ENABLE_CLASSIC
@@ -18,6 +20,7 @@
 
 // BTstack configuration. buffers, sizes, ...
 #define HCI_ACL_PAYLOAD_SIZE 52
+#define MAX_ATT_DB_SIZE 	255	
 #define MAX_SPP_CONNECTIONS 1
 #define MAX_NR_GATT_CLIENTS 0
 #define MAX_NR_GATT_SUBCLIENTS 0
@@ -36,3 +39,4 @@
 #define MAX_NR_SERVICE_RECORD_ITEMS 1
 
 #endif
+

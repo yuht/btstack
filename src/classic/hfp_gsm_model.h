@@ -96,3 +96,4 @@ void hfp_gsm_handle_event(hfp_ag_call_event_t event);
 #endif
 
 #endif
+

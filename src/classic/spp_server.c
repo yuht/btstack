@@ -121,3 +121,4 @@ void spp_create_sdp_record(uint8_t *service, uint32_t service_record_handle, int
 	de_add_number(service,  DE_UINT, DE_SIZE_16, 0x0100);
 	de_add_data(service,  DE_STRING, strlen(name), (uint8_t *) name);
 }
+

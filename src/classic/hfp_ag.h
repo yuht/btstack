@@ -364,3 +364,4 @@ void hfp_ag_report_extended_audio_gateway_error_result_code(bd_addr_t bd_addr, h
 #endif
 
 #endif
+

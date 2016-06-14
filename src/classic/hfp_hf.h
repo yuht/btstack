@@ -422,3 +422,4 @@ void hfp_hf_set_hf_indicator(bd_addr_t addr, int assigned_number, int value);
 #endif
 
 #endif // __BTSTACK_HFP_HF_H
+
