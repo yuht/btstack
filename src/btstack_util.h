@@ -54,8 +54,6 @@ extern "C" {
 #include <stdint.h>
 #include <string.h>
 
-#include "stm32f10x.h"
-
 #include "bluetooth.h"
 #include "btstack_defines.h"
 #include "btstack_linked_list.h"
